@@ -1,0 +1,81 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.login{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    margin: 0;
+    color: #098dca;
+    text-align: center;
+}
+
+.login-form{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    
+}
+
+.form-labels{
+    margin: 0 20px 0 0;
+}
+
+.form-labels p{
+    color: white;
+    margin: 0 0 25px 0;
+    font-size: 16px;
+}
+
+.form-inputs input{
+    margin-bottom: 15px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    padding: 5px 5px 5px 5px;
+    color: #098dca;
+    border-radius: 0;
+    font-size: 16px;
+    width: 150px;
+}
+
+.form-inputs input:hover{
+    border-color: #098dca;
+    transition-duration: 0.5s;
+}
+
+.form-inputs input:focus{
+    border-color: #098dca; 
+    width: 200px;
+    transition-duration: 0.5s;
+    outline: none;
+}
+
+.form-submit{
+    text-align: center;
+}
+
+.form-submit input{
+    background: #2e2e2e;
+    border: 2px solid white;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 0;
+    margin: 0 auto;
+}
+
+.form-submit input:hover{
+    border-color: #098dca;
+    transition-duration: 0.5s;
+    color: #098dca;
+    cursor: pointer;
+}
